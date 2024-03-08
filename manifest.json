@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Roja Automation",
+  "description": "Roja Automation",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
